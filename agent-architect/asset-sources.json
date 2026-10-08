@@ -1,0 +1,25 @@
+{
+  "logo": {
+    "source": "../../../ocr-rush/public/brand-logo.png",
+    "note": "Exact original; no changes to logo pixels"
+  },
+  "awsIcons": {
+    "source": "https://aws.amazon.com/architecture/icons/",
+    "package": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+    "release": "2026-07-31",
+    "note": "Official 48px SVG service icons, copied without recoloring"
+  },
+  "fonts": {
+    "families": [
+      "DM Sans",
+      "Space Grotesk"
+    ],
+    "source": "https://fonts.google.com/",
+    "note": "Same families and weights as OCR Rush; served locally"
+  },
+  "articleImages": {
+    "manifest": "architectures.json",
+    "note": "Source JPEGs preserved byte for byte in research/original-diagrams outside the published directory. Full-resolution and half-size WebP delivery variants use quality 90; source article and original image URLs are retained per reference. Rebuild with npm run optimize:images; encoding settings, source hashes and sizes are recorded in review/image-optimization.json."
+  },
+  "diagramMethod": "Suggested starting designs adapt the editorial catalog architecture. Original article diagrams remain visible alongside them. Source-assigned references and suggested fallback references are distinguished."
+}
